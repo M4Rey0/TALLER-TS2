@@ -12,24 +12,28 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Channel</th>
-                            <th scope="col">Seasons</th>
-                        </tr>
-                    </thead>
-                    <tbody id="series">
-                    </tbody>
-                </table>
-                <p class="font-weight-bold">Seasons average: <span id="promedio-temporadas"></span></p>
-            </div>
+    <div class="row">
+        <div class="col-7">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Channel</th>
+                        <th scope="col">Seasons</th>
+                    </tr>
+                </thead>
+                <tbody id="series">
+                </tbody>
+            </table>
+            <p class="font-weight-bold">Seasons average: <span id="promedio-temporadas"></span></p>
+        </div>
+
+        <div class="col-5">
+            <div id="serie-detail-card"></div>
         </div>
     </div>
+</div>
 
     <script type="module" src="./scripts/main.js"></script>
 </body>
