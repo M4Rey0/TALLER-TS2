@@ -25,7 +25,7 @@ function getAverageSeasons(series) {
 function showSerieDetail(serie) {
     cardContainer.innerHTML = `
     <div class="card" style="width: 100%;">
-      <img class="card-img-top" src="${serie.imageUrl}" alt="${serie.name}">
+      <img class="card-img-top" src="${serie.imageUrl}" alt="${serie.name}" referrerpolicy="no-referrer">
       <div class="card-body">
         <h5 class="card-title">${serie.name}</h5>
         <p class="card-text">${serie.description}</p>
